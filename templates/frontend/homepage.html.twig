@@ -1,0 +1,8 @@
+{% extends 'base.html.twig' %}
+{% block body %}
+    <script>
+        window.user = {{ user|raw }};
+        console.log(window.user);
+    </script>
+
+{% endblock %}
